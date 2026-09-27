@@ -1,7 +1,7 @@
 # Micro T-Helium-Accel — Operation & Evaluation Manual
 
 ## 1. System Specifications & Environment
-To compile, flash, and evaluate the **Demo Project** (and verify the middleware on the reference hardware platform), ensure your host environment matches the following toolchain and hardware configuration:
+To compile, flash, and evaluate the **demo Project** (and verify the middleware on the reference hardware platform), ensure your host environment matches the following toolchain and hardware configuration:
 
 | Component | Specification |
 | :--- | :--- |
@@ -18,7 +18,7 @@ To compile, flash, and evaluate the **Demo Project** (and verify the middleware 
 ## 2. Directory Structure
 
     .
-    ├── Demo_project/       # Ready-to-import e2 studio project (Debug Mode)
+    ├── demo_project/       # Ready-to-import e2 studio project (Debug Mode)
     ├── doc/                # Detailed evaluation and operation manuals
     │   └── OPERATION_MANUAL.md
     ├── inc/                # Middleware header files
@@ -33,7 +33,7 @@ To compile, flash, and evaluate the **Demo Project** (and verify the middleware 
 
 ---
 
-## 3. Part 1: Quick Evaluation via Demo Project
+## 3. Part 1: Quick Evaluation via demo Project
 
 This section provides step-by-step instructions for evaluation judges to rapidly build, flash, and execute the pre-configured project in Renesas e2 studio.
 
@@ -42,11 +42,11 @@ This section provides step-by-step instructions for evaluation judges to rapidly
 2. Select your workspace location.
 3. Select **File → Import...** from the main menu.
 4. Expand **General**, choose **Existing Projects into Workspace**, and click **Next**.
-5. Select **Select root directory**, click **Browse...**, and navigate to the `Demo_project` folder inside this repository.
-6. Ensure `Demo_project` is checked in the *Projects* panel and click **Finish**.
+5. Select **Select root directory**, click **Browse...**, and navigate to the `demo_project` folder inside this repository.
+6. Ensure `demo_project` is checked in the *Projects* panel and click **Finish**.
 
 ### Step 2: Build the Project (Debug Mode)
-1. In the **Project Explorer**, right-click `Demo_project`.
+1. In the **Project Explorer**, right-click `demo_project`.
 2. Click **Build Project** (or press `Ctrl + B`).
 3. Verify in the e2 studio Console tab that compilation completes with **0 Errors**.
 
@@ -55,7 +55,7 @@ This section provides step-by-step instructions for evaluation judges to rapidly
 ### Step 3: Flash and Launch Debugger
 1. Connect the **Renesas EK-RA8P1** board to your host PC using a micro-USB cable on the J-Link Debug Port (`J10`).
 2. In e2 studio, click **Run → Debug Configurations...**.
-3. Under **Renesas GDB Hardware Debugging**, select `Demo_project`.
+3. Under **Renesas GDB Hardware Debugging**, select `demo_project`.
 4. Verify target settings: J-Link ARM interface connected to target device `R7KA8P1KFLCAC`.
 5. Click **Debug** to flash the microcontroller and initialize the GDB debug perspective.
 
