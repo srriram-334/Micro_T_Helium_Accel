@@ -17,12 +17,12 @@ Designed specifically for **TRON × AI** and edge DSP workloads, this middleware
 ---
 
 ## Development & Build Environment
-- **Microcontroller Board:** Renesas EK-RA8P1[cite: 2]
-- **Target MCU:** R7KA8P1KFLCAC (Cortex-M85 / CPU0)[cite: 2]
+- **Microcontroller Board:** Renesas EK-RA8P1
+- **Target MCU:** R7KA8P1KFLCAC (Cortex-M85 / CPU0)
 - **IDE:** Renesas e2 studio
-- **Flexible Software Package (FSP):** v6.5.0[cite: 2]
-- **Toolchain:** GCC ARM Embedded 13.2.1.arm-13-7[cite: 2]
-- **CMSIS Component:** Arm CMSIS Version 6 - Core (M) v6.1.0+fsp.6.5.0[cite: 2]
+- **Flexible Software Package (FSP):** v6.5.0
+- **Toolchain:** GCC ARM Embedded 13.2.1.arm-13-7
+- **CMSIS Component:** Arm CMSIS Version 6 - Core (M) v6.1.0+fsp.6.5.0
 
 ---
 
@@ -66,8 +66,8 @@ In accordance with Rule 2.3 of the TRON Programming Contest 2026, the following 
 | Component / Software | Rights Holder | Method of Acquisition | Function / Usage | License Notice |
 | :--- | :--- | :--- | :--- | :--- |
 | **μT-Kernel 3.0 (BSP2)** | TRON Forum | Provided by Contest Secretariat / Official Repository | Real-Time Operating System core & BSP | T-License 2.2 |
-| **Renesas FSP (v6.5.0)** | Renesas Electronics Corp. | Renesas e2 studio installer[cite: 2] | Hardware initialization & board support files[cite: 2] | BSD-3-Clause |
-| **ARM CMSIS Core (v6.1.0)** | Arm Limited | Included in Renesas FSP / GCC Toolchain[cite: 2] | Cortex-M85 core headers & MVE intrinsics | Apache-2.0 |
+| **Renesas FSP (v6.5.0)** | Renesas Electronics Corp. | Renesas e2 studio installer | Hardware initialization & board support files | BSD-3-Clause |
+| **ARM CMSIS Core (v6.1.0)** | Arm Limited | Included in Renesas FSP / GCC Toolchain | Cortex-M85 core headers & MVE intrinsics | Apache-2.0 |
 
 > **Intellectual Property Guarantee:** The author guarantees that all copyrights and third-party software rights have been handled in accordance with the TRON Programming Contest 2026 application rules.
 
