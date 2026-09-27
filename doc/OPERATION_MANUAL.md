@@ -1,7 +1,7 @@
 # Micro T-Helium-Accel — Operation & Evaluation Manual
 
 ## 1. System Specifications & Environment
-To compile, flash, and evaluate the **Micro T-Helium-Accel** middleware, ensure your host environment matches the following toolchain and hardware configuration:
+To compile, flash, and evaluate the **Demo Project** (and verify the middleware on the reference hardware platform), ensure your host environment matches the following toolchain and hardware configuration:
 
 | Component | Specification |
 | :--- | :--- |
