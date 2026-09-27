@@ -75,3 +75,6 @@ In accordance with Rule 2.3 of the TRON Programming Contest 2026, the following 
 
 ## License
 This project is released under the **MIT License**. See the `LICENSE` file for details.
+
+## References & Acknowledgments
+- **Arm Helium Technology (Arm Education):** Architectural guidance, vector register usage, and MVE intrinsic optimization concepts were referenced from the educational textbook *Arm Helium Technology* by **Arm Education** ([GitHub Repository](https://github.com/arm-education/Arm-Helium-Technology)). Used as reference material in accordance with Arm Education's attribution terms.
