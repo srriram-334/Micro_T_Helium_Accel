@@ -29,7 +29,7 @@ Designed specifically for **TRON × AI** and edge DSP workloads, this middleware
 ## Repository Structure
 
     .
-    ├── Demo_project/       # Complete Renesas e2 studio project (verified in Debug Mode)
+    ├── demo_project/       # Complete Renesas e2 studio project (verified in Debug Mode)
     ├── doc/                # Detailed documentation (Operation & Evaluation Manual)
     │   └── OPERATION_MANUAL.md
     ├── inc/                # Middleware header files (micro_helium_math.h, dwt_timer.h)
