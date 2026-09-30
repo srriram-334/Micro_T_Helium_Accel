@@ -58,6 +58,7 @@ The benchmark suite runs under μT-Kernel 3.0, comparing standard scalar C execu
 For step-by-step instructions on importing the project into Renesas e2 studio, building, flashing, and evaluating the live terminal output, please refer to:
 👉 **[doc/OPERATION_MANUAL.md](doc/OPERATION_MANUAL.md)**
 
+
 ---
 
 ## Third-Party Software Disclosures (Section 2.3 Compliance)
@@ -72,6 +73,8 @@ In accordance with Rule 2.3 of the TRON Programming Contest 2026, the following 
 > **Intellectual Property Guarantee:** The author guarantees that all copyrights and third-party software rights have been handled in accordance with the TRON Programming Contest 2026 application rules.
 
 ---
+##Note:
+If you encounter semantic errors in e² studio but the build completes successfully, you can safely ignore them and continue.
 
 ## License
 This project is released under the **MIT License**. See the `LICENSE` file for details.
