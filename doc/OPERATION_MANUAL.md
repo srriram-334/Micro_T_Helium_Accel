@@ -51,6 +51,8 @@ This section provides step-by-step instructions for evaluation judges to rapidly
 3. Verify in the e2 studio Console tab that compilation completes with **0 Errors**.
 
 *Note: The project is specifically configured and verified under **Debug Mode**, allowing full register and cycle counter inspection.*
+*Note: If you encounter semantic errors in e² studio but the build completes successfully, you can safely ignore them and continue.
+
 
 ### Step 3: Flash and Launch Debugger
 1. Connect the **Renesas EK-RA8P1** board to your host PC using a micro-USB cable on the J-Link Debug Port (`J10`).
